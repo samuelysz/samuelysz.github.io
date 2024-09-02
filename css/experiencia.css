@@ -34,15 +34,21 @@
   position: relative;
 }
 
-.empresa::before {
+.empresa h3::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#fe0601, #fe3d2c);
+  background: linear-gradient(#0a4bd1, #2169ff);
   position: absolute;
   top: 20px;
   left: -4px;
+  transition: 0.2s;
+}
+
+.empresa a:hover h3::before {
+  top: 5px;
+  height: 30px;
 }
 
 .empresa-titulo {
