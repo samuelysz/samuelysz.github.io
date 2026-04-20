@@ -159,6 +159,9 @@
     position: initial;
     margin-bottom: 10px;
   }
+  .formacao .container::after {
+    right: 60px;
+  }
 }
 
 @media (max-width: 400px) {

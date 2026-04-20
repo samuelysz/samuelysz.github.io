@@ -1,5 +1,5 @@
 body {
-  font-family: "Clash Display", Arial, sans-serif;
+  font-family: "Fira sans", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
   color: #121212;
@@ -27,9 +27,9 @@ img {
   display: block;
 }
 .subtitulo {
-  font-size: 8.5rem;
-  line-height: 0.95;
-  font-weight: 600;
+  font-size: 9rem;
+  line-height: 1;
+  font-weight: 800;
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
