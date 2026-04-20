@@ -1,0 +1,148 @@
+.introducao {
+  align-items: center;
+}
+
+.introducao img {
+  width: 404px;
+  height: 594.2;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+  font-weight: 600;
+}
+
+.introducao h1::before {
+  content: "";
+  width: 129px;
+  height: 110px;
+  display: block;
+  background: url("../img/detalhe.png") no-repeat center;
+  position: absolute;
+  left: -35px;
+  top: -20px;
+  z-index: -1;
+}
+
+.introducao p {
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+  color: #474747;
+}
+
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 4rem;
+  }
+  .introducao p {
+    font-size: 1.3rem;
+  }
+  .introducao h1::before {
+    width: 129px;
+    height: 110px;
+    left: -45px;
+    top: -30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .introducao {
+    padding: 40px 60px;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao {
+    gap: 70px;
+  }
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao img {
+    width: 300px;
+    height: 494.2;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 2.7rem;
+  }
+  .introducao p {
+    font-size: 1.2rem;
+  }
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1::before {
+    width: 40px;
+    height: 10px;
+    left: 0;
+    top: -10px;
+  }
+  .introducao img {
+    width: 254px;
+    height: 494.2;
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .introducao {
+    padding: 40px 30px;
+  }
+  .introducao p {
+    font-size: 1rem;
+  }
+  .introducao img {
+    width: 254px;
+    height: 494.2;
+  }
+  .introducao {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .introducao img {
+    display: none;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+  }
+  .introducao h1 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+  .introducao p {
+    text-align: center;
+  }
+  .introducao h1::before {
+    background: url("../img/detalhe.png") repeat center;
+    text-align: center;
+    width: 20px;
+    left: 60px;
+    height: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao h1 {
+    font-size: 2.2rem;
+  }
+}

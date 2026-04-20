@@ -1,0 +1,79 @@
+body {
+  font-family: "Clash Display", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #121212;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+ul,
+a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.subtitulo {
+  font-size: 8.5rem;
+  line-height: 0.95;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 900px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: inherit;
+  }
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 1.8rem;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 60px;
+  }
+}
